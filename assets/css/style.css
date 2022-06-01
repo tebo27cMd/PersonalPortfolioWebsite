@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+h1, h2, h3, h4, h5, h6, p, a{
+     font-family:'Muli',sans-serif,garamond
+    
+
+}
+a:hover{
+  
+   background-color: #87b5ca;
+    border-radius: 7px;
+}
+
+body{
+    background: url(../img/background.jpeg);
+}
+
+#HeaderTable{
+    width: 100%;
+    background-color: #048cc7;
+    border-radius: 17px;
+}
+.logo{
+    width: 70px;
+    padding-left: 30px;
+    
+}
+
+nav{
+    padding-right: 30px;
+    border-radius: 17px;
+
+}
+a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#mainTable{
+    width: 100%;
+    background-color:#005072;
+    
+}
+
+video{
+    width: 100%; 
+    border-radius: 17px;
+    height: 600px;box-shadow: #005072;
+   
+    
+}
+
+#MyImage{
+     width: 480px;
+     border-radius: 17px;
+
+margin-left: 100px;} 
+
+.BioSection{
+    width: 60%;
+    text-align: left ;
+    
+}
+
+.BtnInfo{
+    padding: 12px ;
+    border-radius: 10px;
+    font-size: small;
+
+}
+.BtnInfo:hover{
+    background-color: #cac7c7;
+}
+
+#FooterTable{
+    width: 100%;
+    background-color: #00A0E9;
+    
+
+border-radius: 12px;}
+.InformationDesk{
+  padding-right: 30px;
+
+}
+
+#CntFooter{
+    height: 100vh;
+}
+
+#AbtFooter{
+    height: 100vh;  
+}
+
+.facebook{
+ display: block;
+ text-align: center;
+}
+
+.sign{
+    padding-right: 10%;
+   color: #9bc1d3;
+}
+
+#headings{
+    color: #acacbb;
+}
+
+main{
+    min-height: 100vh;
+}
+.ContactForm{
+    width: 100%;
+
+}
+
+.input[type=text],select,textarea{
+    width: 100%;
+    padding:12px
+    border-radius 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container1{
+    width: 50%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#table1{
+    width: 100%;
+}
+
+#textMov{
+    margin-left: 4%;
+}
+
+#coloring{
+    color: rgb(134, 184, 185);
+}
+#sendButton{
+   margin-left: 36px;
+}
+
+.biopic{
+padding-right: 36px;
+}
+
+
+.caption{
+    font-family:'Muli';
+    font-size: xx-large;
+    padding-left: 300px;
+    font-weight: bolder;
+}
+ .fa-brands{
+     justify-content: center;
+     padding-right: 20px;
+ }
+
+ .sectionText{
+     font-family:'Quicksand' ;
+     font-size: large;
+     color: #cac7c7;
+ }
+ input{
+     width: 280px;
+     height: 30px;
+     border-radius: 12px;
+ }
+ textarea{
+     width: 480px;
+     height: 280px;
+     border-radius: 12px;
+ }
+ .images_box {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 600px;
+    height: 700px;
+    gap: 3rem;
+  }
+  
+  .images_box img {
+    opacity: 0.3;
+  }
+  
+  .images_box img:hover {
+    opacity: 1;
+    transform: perspective(800px);
+  }
+  
+  img {
+    width: 65%;
+    height: 68%;
+    border-radius: 10px;
+    transform-origin:center;
+    transform:perspective(500px) rotateY(30deg);
+    -webkit-box-reflect: below 3px linear-gradient(transparent, transparent, rgba(255,255,255,0.3)); 
+    transition: 0.6s;
+  }
